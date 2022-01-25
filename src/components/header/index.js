@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { UserContext } from '../../context/userContext';
 
 
-import { HeaderContainer, HeaderContent, HeaderLogo, To, List } from './styles'
+import { HeaderContainer, HeaderContent, To, List } from './styles'
 
 function Header() {
   const { logout, signed } = useContext(UserContext)
